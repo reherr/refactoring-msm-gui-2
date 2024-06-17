@@ -34,5 +34,5 @@ class Actor < ApplicationRecord
 
   #   return the_many
   # end
-  has_many(:movies, through: :characters, source: :movie)
+  has_many(:filmography, through: :characters, source: :movie)
 end
